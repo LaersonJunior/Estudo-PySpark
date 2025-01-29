@@ -32,4 +32,4 @@ schema = StructType([
 df = spark.createDataFrame(data=data, schema=schema)
 
 # Exibindo o conteúdo do DataFrame
-df.show()
+print(df)
